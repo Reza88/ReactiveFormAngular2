@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
 
+Angular 2 offers two form-building technologies: reactive forms and template-driven forms. The example below leverages reactive forms which creates forms in a reactive style. Reactive forms facilitate a reactive style of programming which favors the management of data flowing between a non-ui data model and a UI-oriented form model. It retains the states and values of the HTML controls on the screen. With reactive forms, a tree of Angular Form control objects are created in the component class and binded to the native form control elements in the component template. 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
