@@ -8,7 +8,21 @@ In order to run the application please go to project directory and run `npm run 
 
 http://recordit.co/v2jCGbDlX5
 
-## Essential form classes
+## Features 
+
+- Validation exceptions are added dynamically based on user input. 
+- Reset button defaults all input values and validation exceptions. 
+- User is not able to submit input until validation exceptions are cleared. 
+- Success message is displayed once all validation exceptions are cleared. At that point user may submit form.  
+
+## Validation Rules 
+
+- All empty user input values will display an error indicating an empty field. 
+- Username must be all characters and between 5 and 15 length. 
+- Age must be between 18 and 118 and be a positive integer. 
+- Password and confirm must both match and have their values hidden. 
+
+## Essential Form Classes
 Form Control: Tracks the value and validity status of an individual form control. It corresponds to an HTML form control such as an input box or selector.
 
 Form Group: Tracks the value and validity state of a group of AbstractControl instances. The group's properties include its child controls. The top-level form in your component is a FormGroup.
